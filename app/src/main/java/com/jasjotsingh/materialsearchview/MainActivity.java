@@ -6,7 +6,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.miguelcatalan.materialsearchview.MaterialSearchView;
+import com.jasjotsingh.materialsearchview.mylibrary.MaterialSearchView;
+
 
 public class MainActivity extends AppCompatActivity {
     MaterialSearchView searchView;

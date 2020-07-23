@@ -115,7 +115,7 @@ public class AnimationUtil {
         fadeOutView(view, duration, null);
     }
 
-    public static void fadeOutView(View view, int duration, final com.miguelcatalan.materialsearchview.utils.AnimationUtil.AnimationListener listener) {
+    public static void fadeOutView(View view, int duration, final AnimationListener listener) {
         ViewCompat.animate(view).alpha(0f).setDuration(duration).setListener(new ViewPropertyAnimatorListener() {
             @Override
             public void onAnimationStart(View view) {
